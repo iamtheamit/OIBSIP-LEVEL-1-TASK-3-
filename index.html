@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewpoint" content="width-device=width, initial-scale=1.0"/>
+        <title>Temperature Converter</title>
+        <link href="task3.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <center><h1>Temperature Converter</h1></center>
+        <div id="main-area">
+            <div class="input-area">
+                <form id="converter">
+                <center><select name="Type" id="type">
+                    <option >Type</option>
+                    <option value="Celsius">&#176;Celsius</option>
+                    <option value="Fahrenheit">&#176;Fahrenheit</option>
+                </select><br>
+                <hr>
+                <label for="number">Degrees</label><br>
+                <input type="number" name="deg" id="deg" class="input" value="0"><br>
+                <div class="input-area">
+                <hr>
+                <input type="submit" value="Convert" id="submit" class="converter">
+                <hr>
+                </form>
+                <div id="result">Result</div>
+                </div>
+                 </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+</html>
+    
