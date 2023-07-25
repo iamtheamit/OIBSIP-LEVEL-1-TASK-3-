@@ -1,55 +1,52 @@
 h1{
-    font-size: 90px;
-    letter-spacing: 1px;
+    font-size:90px;
+    letter-spacing:1px;
     color: rgba(255, 255, 255, 0.637);
     background-color:rgb(0, 0, 0);
-    padding-bottom:16px;
-    margin-top: 17px;
+    text-align:center;
 }
 body{
-    background-image: url(finalmedia.png);
-    background-repeat: no-repeat;
-    background-size:1950px 1200px;
-    background-position: center;   
+    background-image:url(finalmedia.png);
+    background-repeat:no-repeat;
+    background-size: 100% 155%;
+    background-position:center;
+    margin:auto;
+    padding: 2%;
 }
-#main-area{
-    font-size: 40px;
+.inputarea{
+    font-size:40px;
     color:aliceblue;
-    background-color: rgba(0, 0, 0, 0.678);
-    padding:60px;
-    width: 550px;
-    margin: auto;
+    background-color:rgba(0, 0, 0, 0.678);
+    margin-left:auto;
+    margin-right:auto;
+    padding:50px;
+    padding-top:15px;
+    max-width:500px;
 }
-label{
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-input{
-    width: 200px;
-    height: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px; 
-}
-select{
-    font-size: 20px;
-    font-family: AR;
-    width: 200px;
-    height: 50px;
-    padding: auto;
-    font-weight: bold;
+input, select{
+    width:50%;
+    height:40px;
+    font-size:25px;
+    margin-bottom:10px;
+    font-family:'AR'; 
 }
 .converter{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    padding: 11px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    width:20%;
+    height:50px;
+    font-size:20px;
+    font-weight:bold;
 }
 #result{
-    font-size: 24px;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 1px; 
+    font-size:30px;
+    color:#ffffff;
+    text-align:center;
+    letter-spacing:1px;
+    margin-top:20px;
+} 
+hr{
+    border:1px solid #fff;
+    margin:20px 0;
 }
-  
+label{
+    font-size:28px;
+}
